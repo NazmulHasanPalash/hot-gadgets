@@ -43,9 +43,15 @@ body{
     color: orange;
 }
 /* fourth */
-.fourth-section-heading{
+.title-heading{
     border-bottom: 5px solid orange;
 }
+.footer-edit{
+    border:10px !important;
+    margin: 5px;
+    border-radius: 10px;
+    
+} 
 /*----- responsive---- */
 @media screen and (min-width: 993px) {
     .bar-position{
