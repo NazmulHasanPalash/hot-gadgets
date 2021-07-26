@@ -7,13 +7,11 @@ body{
 .pic img{
     width: 100px;
 }
-/* .bar-position{
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-} */
+.nav-link:hover{
+    border-bottom: 2px solid !important;
+    color: orange !important;
+    border-color: orange !important;
+}
 
 /*---- first banner----- */
 .carousel-container{
@@ -53,11 +51,36 @@ body{
     
 } 
 /*----- responsive---- */
-@media screen and (min-width: 993px) {
+@media only screen and (min-width: 993px) {
     .bar-position{
         position: fixed;
         top: 0;
         right: 0;
         left: 0;
         z-index: 1030;}
+    }
+    @media only screen and (min-width:689px) and (max-width:992px){
+        .bar-position{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;}
+            .first-section{
+                margin-top: 60px;
+            }
+        
+    }
+    @media only screen and (max-width:687px) {
+        .bar-position{
+            position: fixed;
+            top: 0;
+            right: 0;
+            left: 0;
+            z-index: 1030;}
+            .first-section{
+                margin-top: 60px;
+            }
+        
+        
     }
