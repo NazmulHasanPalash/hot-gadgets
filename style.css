@@ -1,0 +1,57 @@
+body{
+    margin: 0;
+}
+
+/*--- navbar--- */
+
+.pic img{
+    width: 100px;
+}
+/* .bar-position{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+} */
+
+/*---- first banner----- */
+.carousel-container{
+    background-image: url(images/bg-2.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 154px;
+    margin:0;
+    
+
+}
+.first-pic{
+    background-image: url(images/bg-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 60px;
+    
+}
+
+.color-style{
+    color: white;
+    text-decoration: none;
+    
+}
+/*------ second-banner----- */
+.span-style{
+    color: orange;
+}
+/* fourth */
+.fourth-section-heading{
+    border-bottom: 5px solid orange;
+}
+/*----- responsive---- */
+@media screen and (min-width: 993px) {
+    .bar-position{
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;}
+    }
