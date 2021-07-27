@@ -58,6 +58,9 @@ body{
         right: 0;
         left: 0;
         z-index: 1030;}
+        .first-section{
+            justify-content: center;
+        }
     }
     @media only screen and (min-width:689px) and (max-width:992px){
         .bar-position{
@@ -68,6 +71,9 @@ body{
             z-index: 1030;}
             .first-section{
                 margin-top: 60px;
+            }
+            .first-section{
+                justify-content: center;
             }
         
     }
